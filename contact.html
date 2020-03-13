@@ -64,7 +64,8 @@
                 <th align="left">
                     <h1>Contact Form</h1>
                     <label for="name">Your Name(Requred)</label><br>
-                    <input type="text" name="name" id="name" size="80">
+                    <input type="text" name="name" id="name" size="80"
+                    required size="20" pattern="[A-Z]{4,25}" title="4 to 8 upercase letters">
                     <p></p>
                 </th>
                 <td rowspan="0">
@@ -137,7 +138,7 @@
             <tr>
                 <th align="left">
                     <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email" size="80">
+                    <input type="email" name="email" id="email" size="80" required placeholder="">
                     <p></p>
                 </th>
                 <th></th>
@@ -145,7 +146,7 @@
             <tr>
                 <th align="left">
                     <label for="subject">Subject</label><br>
-                    <input type="text" name="subject" id="subject" size="80">
+                    <input type="text" name="subject" id="subject" size="80" placeholder="optional">
                     <p></p>
                 </th>
                 <th></th>
@@ -153,7 +154,7 @@
             <tr>
                 <th align="left">
                     <label for="detail">Your message</label><br>
-                    <textarea name="detail" id="detail" cols="81" rows="20"></textarea>
+                    <textarea name="detail" id="detail" cols="81" rows="20" placeholder="Typing...."></textarea>
                     <p></p>
                 </th>
                 <th></th>
